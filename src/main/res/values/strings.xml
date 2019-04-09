@@ -1,0 +1,9 @@
+<resources>
+    <string name="duoqu_webview_img_select_dialog_shooting_text_content">拍摄照片</string>
+    <string name="duoqu_webview_img_select_dialog_choose_text_content">选择文件</string>
+    <string name="duoqu_webview_select_application">选择应用</string>
+    <string name="duoqu_webview_img_select_dialog_photo_album_text_content">手机相册</string>
+    <string name="duoqu_webview_location_prompt_message">当前网页申请使用您当前位置</string>
+    <string name="duoqu_webview_location_prompt_positive">同意</string>
+    <string name="duoqu_webview_location_prompt_negative">拒绝</string>
+</resources>

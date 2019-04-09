@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/duoqu_webview_img_select_dialog_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/duoqu_webview_img_select_dialog_photo_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="54dp"
+        android:text="@string/duoqu_webview_img_select_dialog_photo_album_text_content"
+        android:textColor="#323232"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.333dp"
+        android:background="#dddddd" />
+    <TextView
+        android:id="@+id/duoqu_webview_img_select_dialog_shooting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="@dimen/duoqu_webview_img_select_dialog_shooting_min_height"
+        android:text="@string/duoqu_webview_img_select_dialog_shooting_text_content"
+        android:textColor="@color/duoqu_webview_img_select_dialog_shooting_text_color"
+        android:textSize="@dimen/duoqu_webview_img_select_dialog_shooting_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/duoqu_webview_img_select_dialog_split_height"
+        android:background="@color/duoqu_webview_img_select_dialog_split_background" />
+
+    <TextView
+        android:id="@+id/duoqu_webview_img_select_dialog_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="@dimen/duoqu_webview_img_select_dialog_choose_min_height"
+        android:text="@string/duoqu_webview_img_select_dialog_choose_text_content"
+        android:textColor="@color/duoqu_webview_img_select_dialog_choose_text_color"
+        android:textSize="@dimen/duoqu_webview_img_select_dialog_choose_text_size" />
+
+</LinearLayout>

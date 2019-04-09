@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="duoqu_webview_img_select_dialog_background">#FFFFFF</color>
+    <color name="duoqu_webview_img_select_dialog_shooting_text_color">#323232</color>
+    <color name="duoqu_webview_img_select_dialog_choose_text_color">#323232</color>
+    <color name="duoqu_webview_img_select_dialog_split_background">#dddddd</color>
+</resources>
